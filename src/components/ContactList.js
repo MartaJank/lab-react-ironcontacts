@@ -25,7 +25,7 @@ class ContactList extends Component {
         }
       }
     }
-    firstFive.unshift(randomContact);
+    firstFive.push(randomContact);
     this.setState({
       firstFive: this.state.firstFive,
     });
